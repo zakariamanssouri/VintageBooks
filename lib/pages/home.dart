@@ -2,7 +2,6 @@
 import 'package:book_shop/pages/book_page.dart';
 import 'package:book_shop/theme/colors.dart';
 import 'package:book_shop/widgets/bottombar_item.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
