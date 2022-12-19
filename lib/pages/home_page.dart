@@ -39,6 +39,12 @@ class _HomePageState extends State<HomePage> {
             AvatarImage(profile, isSVG: false, width: 27, height: 27)
           ],
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.shopping_cart),
+            onPressed: () => Navigator.pushNamed(context, '/cart'),
+          )
+        ],
       ),
       body: getStackBody(),
     );
@@ -154,6 +160,7 @@ class _HomePageState extends State<HomePage> {
               Container(
                 margin: EdgeInsets.only(left: 15),
                 child: getLatestBooks(),
+
               ),
               SizedBox(
                 height: 25,
